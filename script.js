@@ -1,4 +1,4 @@
-var text = prompt("So'z yozing:")
+var text = prompt("So'z yozing:").trim()
 
 var first = text.charAt(0).toLowerCase()
 var second = text.charAt(0).toUpperCase()
